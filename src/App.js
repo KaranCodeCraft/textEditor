@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar tittle="Savi Vision" mode={mode} togglemode={toggleMode} />
+        <Navbar tittle="Text Editor" mode={mode} togglemode={toggleMode} />
         <Routes>
           <Route exact path="/" element={<Textfrom heading="Enter text to analyse below" mode={mode} />}/>
           <Route exact path="/about" element={<About/>}/>
